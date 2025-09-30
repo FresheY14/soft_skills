@@ -75,18 +75,3 @@ git commit -m "<commit-message>"
 # 4. อัปโหลดงานไปยังเซิร์ฟเวอร์ (ถ้าต้องการ)
 git push origin <branch-name>
 ```
-
-#### คำสั่งที่มีประโยชน์
-```bash
-# ดูประวัติการบันทึกแบบสั้น
-git log --oneline
-
-# ดูว่าไฟล์เปลี่ยนแปลงอะไรบ้าง
-git diff
-
-# เลิกทำการแก้ไขไฟล์ (กลับไปเหมือนเดิม)
-git checkout -- <filename>
-
-# ดูว่าอยู่ branch ไหน
-git branch --show-current
-```
